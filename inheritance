@@ -1,0 +1,9 @@
+class student:
+ class sports(student):
+  game="hockey"
+  rank=1
+ def play(self):
+  print("play the game:",self.game)
+  print("rank:",self.rank)
+s=sports()
+s.play()
